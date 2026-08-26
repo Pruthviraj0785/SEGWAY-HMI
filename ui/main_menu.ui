@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainMenu</class>
+ <widget class="QWidget" name="MainMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(30,30,30);</string>
+  </property>
+  <widget class="QLabel" name="lblSubtitle">
+   <property name="geometry">
+    <rect>
+     <x>114</x>
+     <y>0</y>
+     <width>622</width>
+     <height>105</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>600</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>28</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+    color: #FF9800;
+    font: 700 28pt &quot;Segoe UI&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;SEGWAY AI&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:400; font-style:italic;&quot;&gt;Autonomous Personal Mobility System&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnHome">
+   <property name="geometry">
+    <rect>
+     <x>62</x>
+     <y>124</y>
+     <width>674</width>
+     <height>73</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>18</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color:#2B2B2B;
+    color:white;
+    border:2px solid #00FF66;
+    border-radius:18px;
+    font:700 18pt &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover
+{
+    background:#00FF66;
+    color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string>🏠  HOME                  Open Live Dashboard    ➜</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnMotor">
+   <property name="geometry">
+    <rect>
+     <x>62</x>
+     <y>290</y>
+     <width>674</width>
+     <height>73</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background:#2B2B2B;
+    color:white;
+    border:2px solid #BA68C8;
+    border-radius:18px;
+    font:700 18pt &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover
+{
+    background:#BA68C8;
+    color:white;
+}</string>
+   </property>
+   <property name="text">
+    <string> ⚙  MOTOR                Motor Monitoring        ➜  </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSettings">
+   <property name="geometry">
+    <rect>
+     <x>62</x>
+     <y>622</y>
+     <width>674</width>
+     <height>73</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color:#181818;
+    color:#F5F5F5;
+    border:2px solid #707070;
+    border-radius:20px;
+    font:700 18pt &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover
+{
+    background-color:#303030;
+    border:2px solid #FFFFFF;
+    color:white;
+}
+
+QPushButton:pressed
+{
+    background-color:#505050;
+}</string>
+   </property>
+   <property name="text">
+    <string> ⚙  SETTINGS                  Configuration           ➜ </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDiagnostics">
+   <property name="geometry">
+    <rect>
+     <x>62</x>
+     <y>539</y>
+     <width>674</width>
+     <height>73</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color:#202020;
+    color:white;
+    border:2px solid #10B981;
+    border-radius:18px;
+    font:700 18pt &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover
+{
+    background-color:#10B981;
+    color:black;
+}
+
+QPushButton:pressed
+{
+    background-color:#059669;
+}</string>
+   </property>
+   <property name="text">
+    <string>📡  DIAGNOSTICS          System Health           ➜</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnGraphs">
+   <property name="geometry">
+    <rect>
+     <x>62</x>
+     <y>456</y>
+     <width>674</width>
+     <height>73</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color:#2B2B2B;
+    color:white;
+    border:2px solid #FF4DA6;
+    border-radius:18px;
+    font:700 18pt &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover
+{
+    background-color:#FF4DA6;
+    color:white;
+}
+
+QPushButton:pressed
+{
+    background-color:#E91E63;
+}</string>
+   </property>
+   <property name="text">
+    <string> 📈  LIVE GRAPHS           Sensor Analytics        ➜</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnCamera">
+   <property name="geometry">
+    <rect>
+     <x>62</x>
+     <y>373</y>
+     <width>674</width>
+     <height>73</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background:#2B2B2B;
+    color:white;
+    border:2px solid #FF5252;
+    border-radius:18px;
+    font:700 18pt &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover
+{
+    background:#FF5252;
+    color:white;
+}</string>
+   </property>
+   <property name="text">
+    <string>📷  CAMERA                  Live Pi Camera          ➜</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnBattery">
+   <property name="geometry">
+    <rect>
+     <x>62</x>
+     <y>207</y>
+     <width>674</width>
+     <height>73</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color:#2B2B2B;
+    color:white;
+    border:2px solid #FFD700;
+    border-radius:18px;
+    font:700 18pt &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover
+{
+    background-color:#FFD700;
+    color:black;
+}
+
+QPushButton:pressed
+{
+    background-color:#FFC107;
+}</string>
+   </property>
+   <property name="text">
+    <string> 🔋  BATTERY              Battery Management      ➜</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnAbout">
+   <property name="geometry">
+    <rect>
+     <x>62</x>
+     <y>690</y>
+     <width>674</width>
+     <height>73</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color:#252525;
+    color:white;
+    border:2px solid #7DD3FC;
+    border-radius:18px;
+    font:700 18pt &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover
+{
+    background-color:#7DD3FC;
+    color:black;
+}
+
+QPushButton:pressed
+{
+    background-color:#38BDF8;
+}</string>
+   </property>
+   <property name="text">
+    <string>ℹ   ABOUT                  Project Information     ➜</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dateLabel">
+   <property name="geometry">
+    <rect>
+     <x>674</x>
+     <y>62</y>
+     <width>167</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>160</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #00FF66;</string>
+   </property>
+   <property name="text">
+    <string>09 August 2026</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="timeLabel">
+   <property name="geometry">
+    <rect>
+     <x>684</x>
+     <y>31</y>
+     <width>125</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>160</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #00FF66;</string>
+   </property>
+   <property name="text">
+    <string>🕒10:42</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDarkTheme">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>21</y>
+     <width>208</width>
+     <height>73</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>18</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color:#2B2B2B;
+    color:white;
+    border:2px dotted #00FF66;
+    border-radius:18px;
+    font:700 18pt &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover
+{
+    background:#00FF66;
+    color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string>DARK THEME</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

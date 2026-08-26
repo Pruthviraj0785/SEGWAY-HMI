@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Python development backups
+main.py.backup*
+main.py.before_*
+main.py.BEFORE_*
+main_before_*
+main_BEFORE_*
+main.py.broken_home
+main.py.home_*
+
+# Backend development backups
+backend/*before*
+backend/*BEFORE*
+backend/*backup*
+backend/*.save
+
+# Backup directories
+backup_before_final/
+backup_before_ui_fix/
+ui_backup_1024/
+
+# Large media
+segway_recording.mp4main.py_before_restore_exact_battery.py
+capture.jpg
